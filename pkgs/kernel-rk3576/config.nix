@@ -8,6 +8,9 @@ with lib.kernel;
   DEBUG_FS = yes;
 
   # --- NixOS & systemd mandatory requirements ---
+  # Disable BTF to avoid compiling Linux 6.1's bundled tools/bpf/resolve_btfids
+  # against newer glibc/uapi headers on nixos-unstable.
+  DEBUG_INFO_BTF = lib.mkForce no;
   DEVTMPFS = yes;
   DEVTMPFS_MOUNT = yes;
   CGROUPS = yes;

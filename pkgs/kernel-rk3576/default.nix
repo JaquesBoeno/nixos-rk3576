@@ -1,5 +1,6 @@
 {
   lib,
+  gcc13Stdenv,
   buildLinux,
   radxa-kernel,
   ...
@@ -15,6 +16,7 @@ buildLinux (
   // {
     inherit version;
     modDirVersion = version;
+    stdenv = gcc13Stdenv;
 
     src = radxa-kernel;
 
