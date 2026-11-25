@@ -51,7 +51,7 @@ Adicione o substituter no seu `/etc/nixos/configuration.nix` (ou aceite o `nixCo
 nix.settings = {
   extra-substituters = [ "https://nixos-rk3576.cachix.org" ];
   extra-trusted-public-keys = [
-    "nixos-rk3576.cachix.org-1:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+    "nixos-rk3576.cachix.org-1:MnQ78NQniiiZE49zIYvOuFnKUcxvXq+FbyTGeVcw+HA="
   ];
 };
 ```

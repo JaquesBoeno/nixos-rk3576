@@ -8,7 +8,7 @@
     extra-trusted-public-keys = [
       # Replace with your Cachix public key after creating the cache:
       # `cachix create nixos-rk3576` -> copy public key here
-      "nixos-rk3576.cachix.org-1:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+      "nixos-rk3576.cachix.org-1:MnQ78NQniiiZE49zIYvOuFnKUcxvXq+FbyTGeVcw+HA="
     ];
   };
 
