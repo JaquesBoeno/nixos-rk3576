@@ -1,0 +1,2 @@
+# Place any custom kernel or Device Tree (.dts/.dtsi) patches here
+# and reference them in `kernelPatches` inside ../default.nix.
